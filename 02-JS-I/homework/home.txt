@@ -1,0 +1,75 @@
+ * Variables
+ Es cualquier numero que siempre puede variar y por lo tanto no es constante
+ * Strings
+ Se le dice así a cualquier palabra o escrito
+ * Funciones (argumentos, `return`)
+ Son sentencias que siempre nos arrojan algo
+ * Declaraciones `if`
+ Son sentencias de condición para ejecutar en orden varias isntrucciones
+ * Valores booleanos (`true`, `false`)
+ Son estados que nos determinan si es verdadero o falso una sentencia. 
+
+
+
+
+function presentar (nombre,edad) {
+	console.log('Hola, mi nombre es ' + nombre);
+	console.log('tengo' +edad + 'años.');	
+}
+
+presentar('Alejandro Crespo',27);
+presentar('Hernan',28);
+presentar('Hernesto',30);
+
+
+function suma(a,b){
+
+	console.log (a+b);
+}
+suma(1,2)
+
+
+var x ='Toni'
+function hola (){
+	console.log (x);
+}
+
+x
+
+
+function siretorna(){
+	return 15;
+}
+
+siretorna()
+
+var x=siretorna();
+
+x
+
+
+function suma(a,b) {
+	return a+b:
+}
+
+suma(1,2)
+suma(1,2)+suma(2,3)
+
+
+var edad =20;
+edad>20
+
+if (edad>20){
+	console.log('estas grande');
+} else {
+	console.log('eres joven');
+}
+console.log('hola')
+
+if (edad>40){
+	console.log('estas grande');
+} else if (edad>30) {
+	console.log('eres joven');
+} else {
+console.log('eres bebé')
+}
