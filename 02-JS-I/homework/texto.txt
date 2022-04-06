@@ -49,7 +49,7 @@ x
 
 
 function suma(a,b) {
-	return a+b:
+	return a+b;
 }
 
 suma(1,2)
@@ -59,12 +59,14 @@ suma(1,2)+suma(2,3)
 var edad =20;
 edad>20
 
+
 if (edad>20){
 	console.log('estas grande');
 } else {
 	console.log('eres joven');
 }
 console.log('hola')
+
 
 if (edad>40){
 	console.log('estas grande');
