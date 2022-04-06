@@ -1,0 +1,96 @@
+
+for (var i = 0; i <= 100; i++){
+	//bloque de codigo
+}
+
+
+function imprime1aN(n){
+for (var i = 1; i <= n; i++){
+	console.log(i);
+}
+}
+
+imprime1aN(10)
+
+
+//programa que solo imprime los números pares del 1 al 100
+function imprime1aN(n){
+for (var i = 1; i <= n; i++){
+if (i%2 === 0){
+	console.log(i);
+}
+}
+}
+
+imprime1aN(100)
+
+
+//programa que solo imprime los números pares del 1 al 100 hasta 200 z termina la funcion
+function imprime1aN(n){
+for (var i = 1; i <= n; i++){
+if (i%2 === 0){
+	console.log(i);
+}
+if (i>200){
+	return;
+}
+}
+}
+
+imprime1aN(250)
+
+
+
+//programa que solo imprime los números pares del 1 al 100 hasta 200 y después de eso imprime los numeros del 0 al 10 y sale de la función
+function imprime1aN(n){
+for (var i = 1; i <= n; i++){
+if (i%2 === 0){
+	console.log(i);
+}
+if (i>200){
+for (var j = 0;j < 10; j++){
+console.log(j);
+}
+	return;
+}
+}
+}
+
+imprime1aN(251)
+
+//matriz nxm salteados
+//n filas
+//m columnas
+function matriz(n,m){
+for (var i = 0; i < n; i++){
+	for (var j = 0; j < m; j++) {
+	console.log(i + ',' + j);
+	}
+}
+}
+matriz(2,2)
+
+
+var i=0;
+while(i<100){
+console.log(i);
+	i++;
+}
+
+
+
+//matriz que imprime valores de j con el contador y cuando i empieza j se hace cero y empieza su conteo de nuevo
+function matriz(n,m){
+var j = 0;
+var i = 0;
+while (i< n){
+while (j<m){
+	console.log(i,j);
+	j=j+1;
+}
+j=0;
+i=i+1;
+}
+}
+
+matriz(2,3)
