@@ -226,7 +226,6 @@ if(valor===true){
   }
   }
 
-esVerdadero(true)
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
