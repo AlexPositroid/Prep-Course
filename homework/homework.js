@@ -225,7 +225,7 @@ if(valor===true){
     console.log('Soy falso');
   }
   }
-
+esVerdadero(true)
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
