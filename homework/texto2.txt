@@ -1,4 +1,11 @@
 
+`for`
+es una sentencia de codigo que determina una secuencia o bucle  en donde se especifica un inicio, un final y la forma de cómo aumentará esta secuencia hasta llegar al valor final deseado.
+
+* `&&`,es un operador lógico llamado AND que determina si alguna de las variables es falso será falso el resultado, pero si dos son verdaderos será verdadero .
+ `||`es un operador lógico llamado OR que determina si alguna de las variables es verdadero será verdadero el resultado, pero si dos son falsos será falso. `!` es un operador lógico llamado NOT que invierte o niega el valor de la entrada verdadero a falso y de falso a verdadero.
+
+
 for (var i = 0; i <= 100; i++){
 	//bloque de codigo
 }
